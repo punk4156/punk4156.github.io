@@ -51,7 +51,6 @@ video, img, audio {
 		text-align: center;
 		max-height: 80vh;
 		video, img, audio {
-			min-width: 500px;
 			min-height: 500px;
 			max-width: 100%;
 			max-height: 80vh;
@@ -91,4 +90,54 @@ video, img, audio {
 		}
 	}
 
+}
+
+
+@include media-query($on-palm) {
+	.art, .double-column {
+		max-width: 100%;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		height: auto;
+		margin-bottom: 50px;
+
+		
+		.art-content {
+			width: 100%;
+			margin-right: 0;
+
+			video, img, audio {
+				min-width: 100%;
+				min-height: 100%;
+				max-width: 100%;
+				max-height: 100%;
+				width: 100%;
+				height: auto;
+			}
+			
+		}
+
+		.art-details {
+			width: 100%;
+			text-align: center;
+
+		}
+
+		.commentary {
+			width: 100%;
+			margin: 0;
+
+			&:nth-child(1) {
+				width: 100%;
+				margin: 0;
+			}
+
+			&:nth-child(2) {
+				width: 100%;
+				margin: 0;
+				margin-top: 50px;
+			}
+		}
+	}
 }
