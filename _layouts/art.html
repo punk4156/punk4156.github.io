@@ -1,23 +1,35 @@
 ---
 layout: default
 ---
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<main class="art h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <h2>{{page.artist}},{{page.year}}</h2>
-    <h3>{{page.edition}}</h3>
-  </header>
+	<div class="art-content e-content" itemprop="articleBody">
+		{% if page.type == "image" %}
+		<img src="{{ page.art_url }}" alt="{{ page.title | escape }} by {{page.artist}}" />
+		{% else if page.type == "video" %}
+		<video controls autoplay muted loop controlsList="nodownload">
+			<source src="{{ page.art_url }}">
+			Your browser does not support the video tag.
+		</video>
+		{% else if page.type == "audio" %}
+		{% else %}
+		yeet
+		{% endif %}
+	</div>
 
-  <div class="post-content e-content" itemprop="articleBody">
-    <img src="{{ page.art_url }}" />
-    {{ content }}
-    }
-  </div>
+	<div class="art-details">
+		<h1 class="art-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+		<h2>by <a href="{{ page.artist_url }}">{{ page.artist }}</a> c. {{page.year}}</h2>
+		<p class="bold">{{page.edition}}</p>
+	</div>
 
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
+	{%- if site.disqus.shortname -%}
+	{%- include disqus_comments.html -%}
+	{%- endif -%}
 
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-</article>
+	<a class="u-url" href="{{ page.url | relative_url }}"></a>
+</main>
+
+<div class="double-column">
+	{{content}}
+</div>
