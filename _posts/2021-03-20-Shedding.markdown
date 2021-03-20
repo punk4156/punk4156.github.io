@@ -12,12 +12,9 @@ categories: art
 ---
 
 
-{% capture artist_blurb %}
-First SUPER RARE release for 2021. Shedding, 2020 / Original audio by the artist.
-{% endcapture %}
+{% capture artist_blurb %}First SUPER RARE release for 2021. Shedding, 2020 / Original audio by the artist.{% endcapture %}
 
-{% capture 4156_blurb %}
-{% endcapture %}
+{% capture 4156_blurb %}{% endcapture %}
 
 
 {% include blurbs.html %}

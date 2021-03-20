@@ -13,12 +13,9 @@ categories: art
 ---
 
 
-{% capture artist_blurb %}
-This is a collaboration with the grammy award winning recording artist RAC. We decided to make 6 infinite loop variations this is the "UNDER LIP" version!
-{% endcapture %}
+{% capture artist_blurb %}This is a collaboration with the grammy award winning recording artist RAC. We decided to make 6 infinite loop variations this is the "UNDER LIP" version!{% endcapture %}
 
-{% capture 4156_blurb %}
-{% endcapture %}
+{% capture 4156_blurb %}{% endcapture %}
 
 
 {% include blurbs.html %}

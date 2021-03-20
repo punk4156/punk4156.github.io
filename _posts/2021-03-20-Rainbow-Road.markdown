@@ -12,12 +12,9 @@ categories: art
 ---
 
 
-{% capture artist_blurb %}
+{% capture artist_blurb %}{% endcapture %}
 
-{% endcapture %}
-
-{% capture 4156_blurb %}
-{% endcapture %}
+{% capture 4156_blurb %}{% endcapture %}
 
 
 {% include blurbs.html %}

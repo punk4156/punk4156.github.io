@@ -12,12 +12,9 @@ categories: art
 ---
 
 
-{% capture artist_blurb %}
-My Genesis #Arthack specifically for Crypto, is staged outside the NY Stock Exchange. This Mixed reality Digital Embodiment explores the nascent new art movement, using my signature glitched style. Can we really make a difference, or it will it be the same old same old? Tis the question. Music by H3SH
-{% endcapture %}
+{% capture artist_blurb %}My Genesis #Arthack specifically for Crypto, is staged outside the NY Stock Exchange. This Mixed reality Digital Embodiment explores the nascent new art movement, using my signature glitched style. Can we really make a difference, or it will it be the same old same old? Tis the question. Music by H3SH{% endcapture %}
 
-{% capture 4156_blurb %}
-{% endcapture %}
+{% capture 4156_blurb %}{% endcapture %}
 
 
 {% include blurbs.html %}

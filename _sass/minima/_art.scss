@@ -1,6 +1,3 @@
-$apeColor: #739eb1;
-$apeCap: #1b4ae2;
-
 html, body {
 	height: 100%;
 
@@ -22,7 +19,6 @@ html, body {
 a {
 	&:link, &:visited {
 		color: inherit;
-		text-decoration: wavy;
 	}
 }
 

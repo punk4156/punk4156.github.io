@@ -13,15 +13,12 @@ categories: art
 ---
 
 
-{% capture artist_blurb %}
-The birth of Freya
+{% capture artist_blurb %}The birth of Freya
 The moment when Mathilda gave birth to Freya. And during the birth you can still see some remnants of her previous battle against inflation...
 Only one(1) edition available!
-Artist: Vegard Aarhus Year: 2021 Format: 2048*2048
-{% endcapture %}
+Artist: Vegard Aarhus Year: 2021 Format: 2048*2048{% endcapture %}
 
-{% capture 4156_blurb %}
-{% endcapture %}
+{% capture 4156_blurb %}{% endcapture %}
 
 
 {% include blurbs.html %}

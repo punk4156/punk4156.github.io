@@ -12,12 +12,9 @@ categories: art
 ---
 
 
-{% capture artist_blurb %}
-They say pressure makes diamonds, but i don't know if i can handle it. There's too much on my mind & I'm Overwhelmed. Tell me, Friend, Will it all be okay in the end!?.. do you promise? please don't lie to me. I'm sick of liars.
-{% endcapture %}
+{% capture artist_blurb %}They say pressure makes diamonds, but i don't know if i can handle it. There's too much on my mind & I'm Overwhelmed. Tell me, Friend, Will it all be okay in the end!?.. do you promise? please don't lie to me. I'm sick of liars.{% endcapture %}
 
-{% capture 4156_blurb %}
-{% endcapture %}
+{% capture 4156_blurb %}{% endcapture %}
 
 
 {% include blurbs.html %}

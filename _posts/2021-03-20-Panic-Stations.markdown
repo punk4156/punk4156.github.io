@@ -13,12 +13,9 @@ categories: art
 ---
 
 
-{% capture artist_blurb %}
-Sorry, this product is unavailable.
-{% endcapture %}
+{% capture artist_blurb %}Sorry, this product is unavailable.{% endcapture %}
 
-{% capture 4156_blurb %}
-{% endcapture %}
+{% capture 4156_blurb %}{% endcapture %}
 
 
 {% include blurbs.html %}
