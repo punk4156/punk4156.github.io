@@ -2,33 +2,22 @@
 layout: art
 title: Post Debt
 art_url: https://ipfs.pixura.io/ipfs/QmauvHamQVLWXNpdoKLimJsTLmbUrc7M9NewQz3g3R88qg
+type: image
 artist: XCOPY
+artist_url: https://superrare.co/XCOPY
 year: 2018
 edition: 1 of 1
 date:   2021-03-17 12:23:29 -0400
 categories: xcopy
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+{% capture 4156_blurb %}
+### Two words:
+- mark
+- down
 
-Jekyll requires blog post files to be named according to the following format:
+That's Life is a 1966 album by Frank Sinatra, supported by a studio orchestra arranged and conducted by Ernie Freeman. The album is notable for its title song, "That's Life", which proved to be a top five hit for Sinatra at a time when rock music dominated the music charts.That's Life was released on CD in May 1998, two weeks before Sinatra's death at the age of 82
+{% endcapture %}
 
-`YEAR-MONTH-DAY-title.MARKUP`
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+{% include blurbs.html %}
