@@ -25,14 +25,14 @@ a.icon-link {
   position: relative;
   text-align: center;
   background-color: $background-color;
-//   z-index: 1;
-  
+  //   z-index: 1;
+
   &:hover {
-	.site-nav {
-		margin-top: 0;
-		opacity: 1;
-		z-index: 1;
-	}
+    .site-nav {
+      margin-top: 0;
+      opacity: 1;
+      z-index: 1;
+    }
   }
 }
 
@@ -58,8 +58,7 @@ a.icon-link {
   margin-top: -$base-line-height * $base-font-size * 2;
   z-index: -1;
   opacity: 0;
-  transition: 0.4s ease-in-out margin-top,
-  			  0.8s ease-in-out opacity;
+  transition: 0.4s ease-in-out margin-top, 0.8s ease-in-out opacity;
 
   .nav-trigger {
     display: none;
@@ -84,11 +83,11 @@ a.icon-link {
     top: 9px;
     right: $spacing-unit / 2;
     background-color: $background-color;
-    border: 1px solid $grey-color-light;
+    // border: 1px solid $grey-color-light;
     border-radius: 5px;
     text-align: right;
-	margin-top: 0;
-	z-index: 0;
+    margin-top: 0;
+	z-index: 1;
 	opacity: 1;
 
     label[for="nav-trigger"] {
@@ -96,7 +95,6 @@ a.icon-link {
       float: right;
       width: 36px;
       height: 36px;
-      z-index: 2;
       cursor: pointer;
     }
 
@@ -115,23 +113,30 @@ a.icon-link {
     }
 
     input ~ .trigger {
+		position: absolute;
+      width: 100vw;
+      text-align: center;
       clear: both;
-      display: none;
-    }
-
-    input:checked ~ .trigger {
       display: block;
-      padding-bottom: 5px;
+	  transition: 0.4s ease-in-out all;
+	  overflow: hidden;
+	  margin-top: 58px;
+	  top: -15px;
+	  left: calc(-100vw + 50px);
+	  max-height: 0;
+	  background-color: $background-color;
+    }
+	
+    input:checked ~ .trigger {
+		max-height: 100vh;
+		padding-bottom: 5px;
     }
 
     .page-link {
       display: block;
       padding: 5px 10px;
-
-      &:not(:last-child) {
-        margin-right: 0;
-      }
-      margin-left: 20px;
+	  border-bottom: 1px solid $grey-color-light;
+	  margin: 0 !important;
     }
   }
 }
