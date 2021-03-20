@@ -1,0 +1,24 @@
+---
+layout: art
+title: "Mortal #1/10"
+art_url: https://res.cloudinary.com/nifty-gateway/image/upload/v1597411821/XCOPY/1._XCOPY_MORTAL_bjee0u.gif
+type: image # image | video
+artist: XCOPY
+artist_url: https://niftygateway.com/profile/xcopy
+year: 2020
+edition: 1 of 10
+date: 2021-03-20 00:03:00 +0200
+categories: art
+---
+
+
+{% capture artist_blurb %}
+
+{% endcapture %}
+
+{% capture 4156_blurb %}
+{% endcapture %}
+
+
+{% include blurbs.html %}
+		
