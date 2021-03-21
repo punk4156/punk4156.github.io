@@ -1,0 +1,21 @@
+---
+layout: art
+title: "Shedding"
+art_url: https://ipfs.pixura.io/ipfs/QmWdua7KLbQ3EeP8a4omo9Uk5E5jbLyZrE2WjwvEyokRD9/Shedding.mp4
+type: video # image | video
+artist: Jason Ebeyer
+artist_url: http://www.instagram.com/jasonebeyer
+year: 2020
+edition: 1 of 1
+date: 2021-03-20 00:03:00 +0200
+categories: art
+---
+
+
+{% capture artist_blurb %}First SUPER RARE release for 2021. Shedding, 2020 / Original audio by the artist.{% endcapture %}
+
+{% capture 4156_blurb %}{% endcapture %}
+
+
+{% include blurbs.html %}
+		

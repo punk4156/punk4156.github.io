@@ -1,0 +1,28 @@
+---
+layout: art
+title: "
+To b last"
+art_url: https://ipfs.pixura.io/ipfs/QmVZK54VBAJqSdRxHSSpLj814fhfNfjiAv9j4mk1CWUsKa/SRBLAST_MINT.mp4
+type: video # image | video
+artist: untitledarmy
+artist_url: https://superrare.co/untitledarmy
+year: 2021
+edition: 1 of 1
+date: 2021-03-20 00:03:00 +0200
+categories: art
+---
+
+
+{% capture artist_blurb %}I stumbled on them, a state, a presence, multitudes. Feelings wanted to be heard but I did not let them speak. You are this army of possibilities, unnamed selves.
+They share a vessel, together, accumulating life, contained. Seeing different angles of the same story. Whispering in your ears, beating in your heart.
+To be, or to blast? That was the question.
+Expose my guts, would I feel naked? Ridiculous? or feel something again.
+I just wanted to explode in colors, express myself, and one day I pulled that pin, that triggered the UntitledArmy.
+This piece is a 1080x1350 px loop and comes with a physical 11"x14" high-quality print signed by the artist. Pros res version of the loop to be provided.
+Art and Sounds created by the UntitledArmy.{% endcapture %}
+
+{% capture 4156_blurb %}{% endcapture %}
+
+
+{% include blurbs.html %}
+		

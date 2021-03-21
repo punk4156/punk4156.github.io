@@ -1,0 +1,21 @@
+---
+layout: art
+title: "Giddy Up"
+art_url: https://storage.opensea.io/files/7624595c58191db4f3480ef1589551e6.mp4
+type: video # image | video
+artist: tonybabel
+artist_url: https://opensea.io/accounts/tonybabel
+year: 2021
+edition: 1 of 1
+date: 2021-03-20 00:03:00 +0200
+categories: art
+---
+
+
+{% capture artist_blurb %}There's a new sheriff in town! 🤠🐴{% endcapture %}
+
+{% capture 4156_blurb %}{% endcapture %}
+
+
+{% include blurbs.html %}
+		

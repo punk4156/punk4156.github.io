@@ -1,12 +1,11 @@
 <article class="commentary">
-	{% if artist_blurb %}
+	{% if artist_blurb != '' %}
 	<h1>Words from the artist:</h1>
 	{{ artist_blurb | markdownify  }}
 	{% endif %}
 </article>
 <article class="commentary">
-	{% if 4156_blurb %}
-	<h1>4125:</h1>
-	{{ 4156_blurb | markdownify  }}
+	{% if 4156_blurb != '' %}
+	<h1>4156:</h1>
 	{% endif %}
 </article>
