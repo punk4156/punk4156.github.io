@@ -16,14 +16,14 @@ a.icon-link {
  * Site header
  */
 .site-header {
-  border-top: 5px solid $apeCap;
+ // border-top: 5px solid $apeCap;
   border-bottom: 1px solid $grey-color-light;
   height: ($spacing-unit * 1.865);
   margin-bottom: $base-line-height * $base-font-size * 2;
 
   // Positioning context for the mobile navigation icon
   position: relative;
-  text-align: center;
+  // text-align: center;
   background-color: $background-color;
   //   z-index: 1;
 
@@ -163,8 +163,8 @@ a.icon-link {
   .pp {
     overflow: hidden;
     border-radius: 1000px;
-    height: 250px;
-    width: 250px;
+    height: 150px;
+    width: 150px;
     img {
       width: 100%;
     }

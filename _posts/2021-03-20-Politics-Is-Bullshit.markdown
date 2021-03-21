@@ -18,4 +18,3 @@ categories: art
 
 
 {% include blurbs.html %}
-		
