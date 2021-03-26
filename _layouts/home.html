@@ -3,31 +3,67 @@ layout: default
 ---
 
 <div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+	{%- if page.title -%}
+	<h1 class="page-heading">{{ page.title }}</h1>
+	{%- endif -%}
 
-  {{ content }}
+	{{ content }}
 
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-		  <!-- {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%} -->
-		  <!-- <span class="post-meta">{{ post.date | date: date_format }}</span> -->
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-			<p class="post-meta">{{ post.artist }}</p>
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-  {%- endif -%}
+	{%- if site.posts.size > 0 -%}
+	<div class="double-column">
+		<!-- assign posts to correct category -->
+		{% assign art_pieces = "" | split: "" %}
+		{% assign posts = "" | split: "" %}
+		{% for post in site.posts %}
+		{% if post.layout == 'art' %}
+		{% assign art_pieces = art_pieces | push: post %}
+		{% else if post.layout == 'post' %}
+		{% assign posts = posts | push: post %}
+		{% endif %}
+		{% endfor %}
+
+		{% if art_pieces.size > 0 %}
+		<div class="column">
+			<h1>Collection</h1>
+			<ul class="post-list">
+				{%- for post in art_pieces -%}
+				{% if post.layout == 'art' %}
+				<li>
+					<h3 class="list-title">
+						<a class="post-link" href="{{ post.url | relative_url }}">
+							{{ post.title | escape }}
+							<p class="post-meta">{{ post.artist }}</p>
+						</a>
+					</h3>
+					{%- if site.show_excerpts -%}
+					{{ post.excerpt }}
+					{%- endif -%}
+				</li>
+				{%- endif -%}
+				{%- endfor -%}
+			</ul>
+		</div>
+		{%- endif -%}
+		{% if posts.size > 0 %}
+		<div class="column">
+			<h1>Writings</h1>
+			<ul class="post-list">
+				{%- for post in posts -%}
+				{% if post.layout == "post" %}
+				<li>
+					<h3 class="list-title">
+						<a class="post-link" href="{{ post.url | relative_url }}">
+							{{ post.title | escape }}
+							<p class="post-meta">{{ post.date | date: "%-d %B %Y" }}</p>
+						</a>
+					</h3>
+				</li>
+				{%- endif -%}
+				{%- endfor -%}
+			</ul>
+		</div>
+		{%- endif -%}
+	</div>
+	{%- endif -%}
 
 </div>
