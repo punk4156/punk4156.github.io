@@ -69,6 +69,82 @@ video, img, audio {
 			}
 		}
 	}
+
+	
+	.art-content {
+		position: relative;
+		transition: 0.4s ease-in-out all;
+
+		.expander {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			position: absolute;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			background-color: rgba(#fff, 0.5);
+			opacity: 0;
+			transition: 0.4s ease-in-out opacity;
+
+			span {
+				position: absolute;
+				box-sizing: content-box;
+				$height: 10px;
+				display: block;
+				width: $height *3;
+				height: $height *3;
+
+				
+				margin-bottom: -50px;
+				margin-left: -50px;
+				border-bottom: $height solid;
+				border-left: $height solid;
+			}
+
+			span + span {
+				transform: rotate(180deg);
+				margin-bottom: 50px;
+				margin-left: 50px;
+			}
+		}
+
+		&:hover {
+			cursor: pointer;
+			.expander {
+				opacity: 1;
+			}
+		}
+
+		&.full-screen {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			cursor: none;
+			// position: absolute;
+			// top: 0;
+			// left: 0;
+			// bottom: 0;
+			// right: 0;
+			// margin: 0;
+			background-color: #fff;
+			// width: 100vw;
+			// height: 100vh;
+			// max-width: 100%;
+			// max-height: 100%;
+
+			.expander {
+				opacity: 0;
+				pointer-events: none;
+			}
+
+			img, video {
+				max-height: calc(100vh - 20px);
+				min-height: auto;
+			}
+		}
+	}
 }
 
 
