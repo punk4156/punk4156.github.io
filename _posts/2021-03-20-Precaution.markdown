@@ -2,8 +2,10 @@
 layout: art
 title: "Precaution"
 art_url: https://ipfs.pixura.io/ipfs/QmfEEXozmHnrj2kCRZwzgzimrgXqpXQGitBsDgLNBSTk3b/NFT-PRECAUTION.mp4
-type: video # image | video
+type: video # image | video | gif
 artist: Cory Van Lew
+artist_birth: 
+caption: 
 artist_url: 
 year: 2021
 edition: 1 of 1

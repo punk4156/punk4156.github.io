@@ -1,0 +1,23 @@
+---
+layout: art
+title: "PAPARA$$I"
+art_url: https://ipfs.pixura.io/ipfs/QmNNy2F2VLVoPrxkcJ7rtjaLjC8hifSiUPKnNCD4qp5LmV/455.mp4
+type: video # image | video | gif
+artist: antonitudisco
+artist_birth: 
+caption: 
+artist_url: https://linktr.ee/antonitudisco
+year: 2021
+edition: 1 of 1
+date: 2021-03-20 00:03:00 +0200
+categories: art
+---
+
+
+{% capture artist_blurb %}“Many people are trying hard to be invincible, and most of the time they fail invisible, while few find their spotlight. But the remarkable person is one, who can be both invincible and invisible at the same time.” ― Anthony Liccione{% endcapture %}
+
+{% capture 4156_blurb %}{% endcapture %}
+
+
+{% include blurbs.html %}
+		

@@ -3,8 +3,10 @@ layout: art
 title: "Panic Stations
 "
 art_url: https://ipfs.pixura.io/ipfs/QmQL7xD1BDVNF1KAXK4bucvmpGrEadutg5jbUQzJRk5NGu/panic-stations4.gif
-type: image # image | video
+type: animated gif # image | video | gif
 artist: XCOPY
+artist_birth: 
+caption: 
 artist_url: https://superrare.co/xcopy
 year: 2020
 edition: 1 of 1

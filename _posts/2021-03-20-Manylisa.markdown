@@ -1,0 +1,23 @@
+---
+layout: art
+title: "Manylisa"
+art_url: https://ipfs.io/ipfs/QmTtga9tKn78VFKxyELFhwLrNoW9W4WpbeR2unZLSLLXBm/nft.png
+type: image # image | video | gif
+artist: femzor
+artist_birth: 
+caption: 
+artist_url: https://foundation.app/femzor
+year: 2021
+edition: 
+date: 2021-03-20 00:03:00 +0200
+categories: art
+---
+
+
+{% capture artist_blurb %}Monalisa, but it's many lisas{% endcapture %}
+
+{% capture 4156_blurb %}{% endcapture %}
+
+
+{% include blurbs.html %}
+		

@@ -2,8 +2,10 @@
 layout: art
 title: "Crypto Art rides The Bull"
 art_url: https://ipfs.pixura.io/ipfs/QmTCXvNE3vAvXbhHMUdX81SQitqx4uSAR1Q6ruixus2YsG/CryptoArtRidestheBull2.mp4
-type: video # image | video
+type: video # image | video | gif
 artist: Marjan Moghaddam
+artist_birth: 
+caption: 
 artist_url: https://superrare.co/marjan
 year: 2021
 edition: 1 of 1

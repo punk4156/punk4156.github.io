@@ -4,15 +4,19 @@ layout: default
 <main class="art h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
 	<div class="art-content e-content" itemprop="articleBody">
-		{% if page.type == "image" %}
+		{% if page.type == "image" or page.type == "animated gif" %}
 		<img src="{{ page.art_url }}" alt="{{ page.title | escape }} by {{page.artist}}" />
 		{% else if page.type == "video" %}
-		<video controls autoplay muted loop controlsList="nodownload">
+		<video autoplay muted loop controlsList="nodownload">
 			<source src="{{ page.art_url }}">
 			Your browser does not support the video tag.
 		</video>
 		{% else if page.type == "audio" %}
 		{% endif %}
+		<div class="expander">
+			<span></span>
+			<span></span>
+		</div>
 	</div>
 
 	<div class="art-details">
@@ -40,3 +44,5 @@ layout: default
 <div class="double-column">
 	{{content}}
 </div>
+
+<script src="/assets/js/main.js"></script>

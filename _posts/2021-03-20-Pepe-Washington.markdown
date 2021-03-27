@@ -2,8 +2,10 @@
 layout: art
 title: "Pepe Washington"
 art_url: https://lh3.googleusercontent.com/juLFF3xwJQVJYXZsdO3blsIsEuLIm8_CmQXXqXyLsR3gUFUTE9gA5WwFlrI8tx7lq3pfAvn8kQFoqLt1ZqdT8C2EEPqTVyWEQpaheiY=s0
-type: image # image | video
+type: image # image | video | gif
 artist: Pepelangelo
+artist_birth: 
+caption: 
 artist_url: https://opensea.io/accounts/Pepelangelo
 year: 2021
 edition: 1 of 1

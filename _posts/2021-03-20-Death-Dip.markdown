@@ -1,13 +1,13 @@
 ---
 layout: art
-title: "Post Debt"
-art_url: https://ipfs.pixura.io/ipfs/QmauvHamQVLWXNpdoKLimJsTLmbUrc7M9NewQz3g3R88qg
+title: "Death Dip"
+art_url: https://ipfs.pixura.io/ipfs/QmPVw2vcVnj7vYHc6Esk1kRpQTVxL6KEgc5bmF6PFjR4Xi
 type: animated gif # image | video | gif
 artist: XCOPY
 artist_birth: 
 caption: 
 artist_url: https://superrare.co/xcopy
-year: 2018
+year: 2017
 edition: 1 of 1
 date: 2021-03-20 00:03:00 +0200
 categories: art

@@ -1,9 +1,12 @@
 ---
 layout: art
-title: "Rare Elon #0"
+title: "
+Rare Elon #0"
 art_url: https://lh3.googleusercontent.com/b3vV6WS4_F047zcvsmJRMBfK5PRWBsHGZH1jcsvI4DixuuVAbH0G4vpjw2eSAWoBbTEUTRC9oj3C2ZzZJ2LU_FNIiPz-lZxo1m2r=s0
-type: image # image | video | animated gif
+type: image # image | video | gif
 artist: RareElons
+artist_birth: 
+caption: 
 artist_url: https://opensea.io/accounts/RareElons
 year: 2021
 edition: 1 of 1
