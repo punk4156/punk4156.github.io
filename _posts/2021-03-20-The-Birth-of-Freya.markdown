@@ -3,8 +3,10 @@ layout: art
 title: "
 The Birth of Freya"
 art_url: https://ipfs.pixura.io/ipfs/QmY5f3NmiTu9M5uTj7RBJLX3dkvYpzkj7eAfLMFom2vtGZ/Mathilda_tried_to_eat_Freya_v001.mp4
-type: video # image | video
+type: video # image | video | gif
 artist: Vegard Aarhus
+artist_birth: 
+caption: 
 artist_url: https://superrare.co/vegardaarhus
 year: 2021
 edition: 1 of 1

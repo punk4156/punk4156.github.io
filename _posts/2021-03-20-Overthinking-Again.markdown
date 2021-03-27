@@ -2,8 +2,10 @@
 layout: art
 title: "Overthinking Again"
 art_url: https://ipfs.pixura.io/ipfs/QmeJysFVuW9fmPypPqm9JEyn2ENfvKhKRWesVo76WyxvrZ/overthinkingagain.jpg
-type: image # image | video
+type: image # image | video | gif
 artist: FEWOCiOUS
+artist_birth: 
+caption: 
 artist_url: https://opensea.io/accounts/FEWOCiOUS
 year: 2020
 edition: 1 of 1

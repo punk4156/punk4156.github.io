@@ -2,8 +2,10 @@
 layout: art
 title: "Shedding"
 art_url: https://ipfs.pixura.io/ipfs/QmWdua7KLbQ3EeP8a4omo9Uk5E5jbLyZrE2WjwvEyokRD9/Shedding.mp4
-type: video # image | video
+type: video # image | video | gif
 artist: Jason Ebeyer
+artist_birth: 
+caption: 
 artist_url: http://www.instagram.com/jasonebeyer
 year: 2020
 edition: 1 of 1

@@ -3,8 +3,10 @@ layout: art
 title: "Along the Rails - Under Lip
 "
 art_url: https://mkpcdn.com/videos/d094e345212480fda5e4723f8d73af2d_518844.mp4
-type: video # image | video
+type: video # image | video | gif
 artist: Lucas Zanotto
+artist_birth: 
+caption: 
 artist_url: https://makersplace.com/lucaszanotto/
 year: 2021
 edition: 1 of 1

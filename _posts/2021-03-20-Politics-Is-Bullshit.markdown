@@ -2,8 +2,10 @@
 layout: art
 title: "Politics Is Bullshit #2/100"
 art_url: https://res.cloudinary.com/nifty-gateway/video/upload/v1603975889/Beeple/POLITICAL_BULLSHIT_uqbc8x.mp4
-type: video # image | video
+type: video # image | video | gif
 artist: beeple
+artist_birth: 
+caption: 
 artist_url: https://opensea.io/accounts/beeple
 year: 2020
 edition: 2 of 100
@@ -18,3 +20,4 @@ categories: art
 
 
 {% include blurbs.html %}
+		

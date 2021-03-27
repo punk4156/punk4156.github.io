@@ -2,8 +2,10 @@
 layout: art
 title: "Giddy Up"
 art_url: https://storage.opensea.io/files/7624595c58191db4f3480ef1589551e6.mp4
-type: video # image | video
+type: video # image | video | gif
 artist: tonybabel
+artist_birth: 
+caption: 
 artist_url: https://opensea.io/accounts/tonybabel
 year: 2021
 edition: 1 of 1
