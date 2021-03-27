@@ -12,15 +12,20 @@ layout: default
 			Your browser does not support the video tag.
 		</video>
 		{% else if page.type == "audio" %}
-		{% else %}
-		yeet
 		{% endif %}
 	</div>
 
 	<div class="art-details">
-		<h1 class="art-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-		<h2>by <a href="{{ page.artist_url }}">{{ page.artist }}</a> c.&nbsp;{{page.year}}</h2>
-		<p class="bold">{{page.edition}}</p>
+		<h1>
+			<strong><a href="{{ page.artist_url }}">{{ page.artist }}</a></strong>
+			{% if page.artist_birth %}
+			(b.&nbsp;{{ page.artist_birth }})
+			{% endif %}
+		</h1>
+		<h1 class="art-title p-name" itemprop="name headline"><i><strong>{{ page.title | escape
+					}},</strong></i>&nbsp;{{page.year}}</h1>
+		<p>{{page.type | capitalize}} - {{page.edition}}</p>
+		<p class="">{{page.caption}}</p>
 	</div>
 
 	{%- if site.disqus.shortname -%}
@@ -29,6 +34,8 @@ layout: default
 
 	<a class="u-url" href="{{ page.url | relative_url }}"></a>
 </main>
+
+{%- include pagination.html-%}
 
 <div class="double-column">
 	{{content}}

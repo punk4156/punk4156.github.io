@@ -4,6 +4,8 @@ title: "Post Debt"
 art_url: https://ipfs.pixura.io/ipfs/QmauvHamQVLWXNpdoKLimJsTLmbUrc7M9NewQz3g3R88qg
 type: image # image | video
 artist: XCOPY
+artist_birth: 1982
+caption: Purchased by 4156 on SuperRare on March 13th for 23ETH
 artist_url: https://superrare.co/xcopy
 year: 2018
 edition: 1 of 1
