@@ -27,20 +27,29 @@ let toggleFullScreen = (elem) => {
 }
 
 let art = document.querySelector('.art-content');
-art.addEventListener('click', (e) => {
+let toggleHandler = (e) => {
 	e.preventDefault();
 	art.classList.toggle('full-screen');
 	toggleFullScreen(art);
+	setTimeout(() => {
+		document.querySelector('.site-header').click();
+	}, 500);
 
 	//check if art is video and mute/unmute
 	let vid = art.querySelector('video')
 	if (vid) {
 		vid.muted = !vid.muted;
 	}
-})
-
-document.addEventListener('click', (e) => {
-	if (e.target.type == 'video') {
-		console.log('yyet');
+}
+let initFullscreener = () => {
+	art.removeEventListener('click', toggleHandler);
+	art.querySelector('.expander').removeEventListener('click', toggleHandler);
+	if (window.innerWidth > 800) {
+		art.addEventListener('click', toggleHandler)
+	} else {
+		art.querySelector('.expander').addEventListener('click', toggleHandler);
 	}
-})
+}
+
+window.addEventListener('resize', initFullscreener)
+initFullscreener();

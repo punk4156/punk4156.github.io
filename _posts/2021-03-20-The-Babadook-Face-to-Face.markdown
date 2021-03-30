@@ -1,6 +1,6 @@
 ---
 layout: art
-title: "The Babadook 02Face to Face""
+title: "The Babadook 02Face to Face"
 art_url: https://ipfs.pixura.io/ipfs/QmYcpyUzMjkUEvaHMLMwfiXkAZJadteXLQiStDGQQcuzvv
 type: animated gif # image | video | gif
 artist: Hackatao
