@@ -1,10 +1,21 @@
 ---
+# SEO METADATA
+description: "Post Debt - XCOPY, 2018"
+author:
+  name: XCOPY
+  url: https://superrare.co/xcopy
+image:
+  path: https://lh3.googleusercontent.com/hMLW9nryXY-oHlgaMaGWON7JsrWIXh9zExafqB_K9gTD4HyuSRdIzWQ24698HG7Ou3s6oIqofJjDuH7RN6wiSz_z=w1400-k
+  width: 1200
+  height: 630
+
+#art metadata
 layout: art
-title: "Post Debt"
+art_title: "Post Debt"
 art_url: https://ipfs.pixura.io/ipfs/QmauvHamQVLWXNpdoKLimJsTLmbUrc7M9NewQz3g3R88qg
 type: animated gif # image | video | gif
 artist: XCOPY
-artist_birth: 
+artist_birth: 1984
 caption: 
 artist_url: https://superrare.co/xcopy
 year: 2018

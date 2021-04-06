@@ -1,6 +1,18 @@
 ---
+# SEO METADATA
+description: "
+Rare Elon #0 - RareElons, 2021"
+author:
+  name: RareElons
+  url: https://opensea.io/accounts/RareElons
+image:
+  path: https://lh3.googleusercontent.com/b3vV6WS4_F047zcvsmJRMBfK5PRWBsHGZH1jcsvI4DixuuVAbH0G4vpjw2eSAWoBbTEUTRC9oj3C2ZzZJ2LU_FNIiPz-lZxo1m2r=w1400-k
+  width: 1200
+  height: 630
+
+#art metadata
 layout: art
-title: "
+art_title: "
 Rare Elon #0"
 art_url: https://lh3.googleusercontent.com/b3vV6WS4_F047zcvsmJRMBfK5PRWBsHGZH1jcsvI4DixuuVAbH0G4vpjw2eSAWoBbTEUTRC9oj3C2ZzZJ2LU_FNIiPz-lZxo1m2r=s0
 type: image # image | video | gif

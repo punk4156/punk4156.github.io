@@ -1,11 +1,23 @@
 ---
+# SEO METADATA
+description: "Panic Stations
+ - XCOPY, 2020"
+author:
+  name: XCOPY
+  url: https://superrare.co/xcopy
+image:
+  path: https://lh3.googleusercontent.com/Q-Cy5CanqatJ9tPBD1y0aAGByhhqIhvpBu8q1Z-ctAxrGyUnY0QgdyBbiquoHWz2BsoIBUMdX4redzv6XAN7xudbkQ=w1400-k
+  width: 1200
+  height: 630
+
+#art metadata
 layout: art
-title: "Panic Stations
+art_title: "Panic Stations
 "
 art_url: https://ipfs.pixura.io/ipfs/QmQL7xD1BDVNF1KAXK4bucvmpGrEadutg5jbUQzJRk5NGu/panic-stations4.gif
 type: animated gif # image | video | gif
 artist: XCOPY
-artist_birth: 
+artist_birth: 1984
 caption: 
 artist_url: https://superrare.co/xcopy
 year: 2020

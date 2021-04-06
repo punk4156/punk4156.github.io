@@ -1,9 +1,20 @@
 ---
+# SEO METADATA
+description: "Manylisa - Femzor, 2021"
+author:
+  name: Femzor
+  url: https://foundation.app/femzor
+image:
+  path: https://lh3.googleusercontent.com/2f4P3aPe87YnbmgnAA0wBI_Vo9FhqbaGW9N5--21lFDd3vMyAP88z93zawYzCRCD7kx6vJ14iNPcD4AkuAZa1fkRFXJmhEQsQwbpzA=w1400-k
+  width: 1200
+  height: 630
+
+#art metadata
 layout: art
-title: "Manylisa"
+art_title: "Manylisa"
 art_url: https://ipfs.io/ipfs/QmTtga9tKn78VFKxyELFhwLrNoW9W4WpbeR2unZLSLLXBm/nft.png
 type: image # image | video | gif
-artist: femzor
+artist: Femzor
 artist_birth: 
 caption: 
 artist_url: https://foundation.app/femzor

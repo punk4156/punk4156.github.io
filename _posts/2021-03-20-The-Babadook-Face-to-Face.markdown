@@ -1,6 +1,17 @@
 ---
+# SEO METADATA
+description: "The Babadook 02Face to Face - Hackatao, 2018"
+author:
+  name: Hackatao
+  url: https://superrare.co/hackatao
+image:
+  path: https://lh3.googleusercontent.com/FbzreCjLyRrIifTEhZzk-hZxVT1mG2yTaA5U6Yp9oye8Oa12T0G40eQ_KfX1t394YiR8PIXG7sOfcfwHOGuCYpz8=w1200-k
+  width: 1200
+  height: 630
+
+#art metadata
 layout: art
-title: "The Babadook 02Face to Face"
+art_title: "The Babadook 02Face to Face"
 art_url: https://ipfs.pixura.io/ipfs/QmYcpyUzMjkUEvaHMLMwfiXkAZJadteXLQiStDGQQcuzvv
 type: animated gif # image | video | gif
 artist: Hackatao

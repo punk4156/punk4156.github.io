@@ -1,10 +1,21 @@
 ---
+# SEO METADATA
+description: "Hope - XCOPY, 2020"
+author:
+  name: XCOPY
+  url: https://superrare.co/xcopy
+image:
+  path: https://lh3.googleusercontent.com/fLMB8CcyjVlOJhoc3HqsmKPoU-CJDT1lwWKAo6Bc5fybLTBm3dnfdJ3pS3RY_hMbCJpJcIW7SzcqBaBe8uRS8Plt=w1400-k
+  width: 1200
+  height: 630
+
+#art metadata
 layout: art
-title: "Hope"
+art_title: "Hope"
 art_url: https://ipfs.pixura.io/ipfs/QmW13oD6CHrANhZGz3FnDQTokKDpGnuzUpc6frPpW2LaYp/XCOPY_HOPE_2020.gif
 type: animated gif # image | video | gif
 artist: XCOPY
-artist_birth: 
+artist_birth: 1984
 caption: 
 artist_url: https://superrare.co/xcopy
 year: 2020

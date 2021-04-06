@@ -1,6 +1,17 @@
 ---
+# SEO METADATA
+description: "Today was a good day - Anna Kajda, 2021"
+author:
+  name: Anna Kajda
+  url: https://foundation.app/anna
+image:
+  path: https://lh3.googleusercontent.com/25ntviTVYM0yqlFQ_h3pflaDrQLMKHa_bQic1yT1SThJs93tOm4NTf4eWZuGVFpMmXpB-qranWYUyQgwMthhgpKKNLq0hZIWzeqc=w1400-k
+  width: 1200
+  height: 630
+
+#art metadata
 layout: art
-title: "Today was a good day"
+art_title: "Today was a good day"
 art_url: https://ipfs.pixura.io/ipfs/QmaYwQUoQ2g5SE2FP5PX9xiJoaFNnENHoWYfxamYaGCaDA/nft.png
 type: image # image | video | gif
 artist: Anna Kajda

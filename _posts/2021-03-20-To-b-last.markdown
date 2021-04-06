@@ -1,10 +1,22 @@
 ---
+# SEO METADATA
+description: "
+To b last - untitledarmy, 2021"
+author:
+  name: UntitledArmy
+  url: https://superrare.co/untitledarmy
+image:
+  path: https://lh3.googleusercontent.com/tIvPlYzGTekKuNjlrtMvXZGaLbTk4iM-r2pmT6MHdO7tnbeguN6CqRO2nG-qtUpemUpmzNIt5Fpe9YJF8YxLxPfj0Xa_FbylOcgwRA=w1400-k
+  width: 1200
+  height: 630
+
+#art metadata
 layout: art
-title: "
+art_title: "
 To b last"
 art_url: https://ipfs.pixura.io/ipfs/QmVZK54VBAJqSdRxHSSpLj814fhfNfjiAv9j4mk1CWUsKa/SRBLAST_MINT.mp4
 type: video # image | video | gif
-artist: untitledarmy
+artist: UntitledArmy
 artist_birth: 
 caption: 
 artist_url: https://superrare.co/untitledarmy

@@ -1,10 +1,21 @@
 ---
+# SEO METADATA
+description: "Death Dip - XCOPY, 2017"
+author:
+  name: XCOPY
+  url: https://superrare.co/xcopy
+image:
+  path: https://lh3.googleusercontent.com/Fzc7-PJ-e1YCGPmyUqBpw15oQjHXUO4FoCTREDY94qBNcTucjU_IUEPPYc-EO87Uxfg5I83hu9qlGe-p0B2nndyldA=w1400-k
+  width: 1200
+  height: 630
+
+#art metadata
 layout: art
-title: "Death Dip"
+art_title: "Death Dip"
 art_url: https://ipfs.pixura.io/ipfs/QmPVw2vcVnj7vYHc6Esk1kRpQTVxL6KEgc5bmF6PFjR4Xi
 type: animated gif # image | video | gif
 artist: XCOPY
-artist_birth: 
+artist_birth: 1984
 caption: 
 artist_url: https://superrare.co/xcopy
 year: 2017

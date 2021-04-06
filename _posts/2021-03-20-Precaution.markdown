@@ -1,6 +1,17 @@
 ---
+# SEO METADATA
+description: "Precaution - Cory Van Lew, 2021"
+author:
+  name: Cory Van Lew
+  url: 
+image:
+  path: https://lh3.googleusercontent.com/jeef0kEdYRZbbItzMiy3F2CTLNE1IfrZQEEzYwH8z1dq_VB4bvyItnANrJe4U5BiUmnLN9sxe_pIPGylnd5-yT2LO6gnzTn-EIfsmA=w1400-k
+  width: 1200
+  height: 630
+
+#art metadata
 layout: art
-title: "Precaution"
+art_title: "Precaution"
 art_url: https://ipfs.pixura.io/ipfs/QmfEEXozmHnrj2kCRZwzgzimrgXqpXQGitBsDgLNBSTk3b/NFT-PRECAUTION.mp4
 type: video # image | video | gif
 artist: Cory Van Lew

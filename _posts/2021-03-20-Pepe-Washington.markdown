@@ -1,6 +1,17 @@
 ---
+# SEO METADATA
+description: "Pepe Washington - Pepelangelo, 2021"
+author:
+  name: Pepelangelo
+  url: https://opensea.io/accounts/Pepelangelo
+image:
+  path: https://lh3.googleusercontent.com/juLFF3xwJQVJYXZsdO3blsIsEuLIm8_CmQXXqXyLsR3gUFUTE9gA5WwFlrI8tx7lq3pfAvn8kQFoqLt1ZqdT8C2EEPqTVyWEQpaheiY=w1400-k
+  width: 1200
+  height: 630
+
+#art metadata
 layout: art
-title: "Pepe Washington"
+art_title: "Pepe Washington"
 art_url: https://lh3.googleusercontent.com/juLFF3xwJQVJYXZsdO3blsIsEuLIm8_CmQXXqXyLsR3gUFUTE9gA5WwFlrI8tx7lq3pfAvn8kQFoqLt1ZqdT8C2EEPqTVyWEQpaheiY=s0
 type: image # image | video | gif
 artist: Pepelangelo
