@@ -1,9 +1,20 @@
 ---
+# SEO METADATA
+description: "Politics Is Bullshit #2/100 - Beeple, 2020"
+author:
+  name: Beeple
+  url: https://opensea.io/accounts/beeple
+image:
+  path: https://lh3.googleusercontent.com/79JB1V9gSMv83iMs-Db4qdpPVdpKiyt_sjGLgs575wLEgWjSRLCzMQMoxaealYz7AVCKY_mzSy6GlOYdGt_7aaCZfg=w1200-k
+  width: 1200
+  height: 630
+
+#art metadata
 layout: art
-title: "Politics Is Bullshit #2/100"
+art_title: "Politics Is Bullshit #2/100"
 art_url: https://res.cloudinary.com/nifty-gateway/video/upload/v1603975889/Beeple/POLITICAL_BULLSHIT_uqbc8x.mp4
 type: video # image | video | gif
-artist: beeple
+artist: Beeple
 artist_birth: 
 caption: 
 artist_url: https://opensea.io/accounts/beeple

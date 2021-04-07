@@ -26,20 +26,29 @@ layout: default
 		<div class="column">
 			<h1>Collection</h1>
 			<ul class="post-list">
+
+				{% comment %} this is not pretty but it works {% endcomment %}
+				{% assign artists = "" | split: "" %}
 				{%- for post in art_pieces -%}
-				{% if post.layout == 'art' %}
+				{%- unless artists contains post.artist -%}
+				{%- assign artists = artists | push: post.artist -%}
+				{%- endunless  -%}
+				{%- endfor -%}
+
+				{%- assign artists = artists | sort -%}
+
+				{%- for artist in artists -%}
 				<li>
-					<h3 class="list-title">
-						<a class="post-link" href="{{ post.url | relative_url }}">
-							{{ post.title | escape }}
-							<p class="post-meta">{{ post.artist }}</p>
-						</a>
-					</h3>
-					{%- if site.show_excerpts -%}
-					{{ post.excerpt }}
+					<h2 class="list-title">{{artist}}</h2>
+					{%- assign art_pieces = art_pieces | sort: year -%}
+					{%- for post in art_pieces -%}
+					{%- if post.artist == artist -%}
+					<a class="post-link" href="{{ post.url | relative_url }}">
+						{{ post.art_title | escape }}, {{ post.year | escape }}
+					</a>
 					{%- endif -%}
+					{%- endfor -%}
 				</li>
-				{%- endif -%}
 				{%- endfor -%}
 			</ul>
 		</div>
@@ -51,12 +60,12 @@ layout: default
 				{%- for post in posts -%}
 				{% if post.layout == "post" %}
 				<li>
-					<h3 class="list-title">
-						<a class="post-link" href="{{ post.url | relative_url }}">
+					<h2 class="">
+						<a class="" href="{{ post.url | relative_url }}">
 							{{ post.title | escape }}
 							<p class="post-meta">{{ post.date | date: "%-d %B %Y" }}</p>
 						</a>
-					</h3>
+					</h2>
 				</li>
 				{%- endif -%}
 				{%- endfor -%}

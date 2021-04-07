@@ -1,10 +1,21 @@
 ---
+# SEO METADATA
+description: "Mortal #1/10 - XCOPY, 2020"
+author:
+  name: XCOPY
+  url: https://niftygateway.com/profile/xcopy
+image:
+  path: https://lh3.googleusercontent.com/3RmDATJWII-e731X-6nFq9zNMYDPGhAfc1DySljShcOFmr4a-JVSij6xmVobyqpBdbNxZnsQdY3WhIgE8XgsQqDc=w1400-k
+  width: 1200
+  height: 630
+
+#art metadata
 layout: art
-title: "Mortal #1/10"
+art_title: "Mortal #1/10"
 art_url: https://res.cloudinary.com/nifty-gateway/image/upload/v1597411821/XCOPY/1._XCOPY_MORTAL_bjee0u.gif
 type: animated gif # image | video | gif
 artist: XCOPY
-artist_birth: 
+artist_birth: 1984
 caption: 
 artist_url: https://niftygateway.com/profile/xcopy
 year: 2020

@@ -11,6 +11,9 @@ layout: default
 			<source src="{{ page.art_url }}">
 			Your browser does not support the video tag.
 		</video>
+		<div class="muter">
+			<div class="icon"></div>
+		</div>
 		{% else if page.type == "audio" %}
 		{% endif %}
 		<div class="expander">
@@ -26,7 +29,7 @@ layout: default
 			(b.&nbsp;{{ page.artist_birth }})
 			{% endif %}
 		</h1>
-		<h1 class="art-title p-name" itemprop="name headline"><i><strong>{{ page.title | escape
+		<h1 class="art-title p-name" itemprop="name headline"><i><strong>{{ page.art_title | escape
 					}},</strong></i>&nbsp;{{page.year}}</h1>
 		<p>{{page.type | capitalize}} - {{page.edition}}</p>
 		<p class="">{{page.caption}}</p>

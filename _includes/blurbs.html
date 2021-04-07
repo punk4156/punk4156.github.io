@@ -1,7 +1,9 @@
 <article class="commentary">
 	{% if artist_blurb != '' %}
-	<h1>Words from the artist:</h1>
+	<blockquote>
 	{{ artist_blurb | markdownify  }}
+	<!-- <p>&ndash; {{ page.artist }}</p> -->
+	</blockquote>
 	{% endif %}
 </article>
 <article class="commentary">

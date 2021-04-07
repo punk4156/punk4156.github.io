@@ -1,6 +1,17 @@
 ---
+# SEO METADATA
+description: "Shedding - Jason Ebeyer, 2020"
+author:
+  name: Jason Ebeyer
+  url: http://www.instagram.com/jasonebeyer
+image:
+  path: https://lh3.googleusercontent.com/QSI_m5TvIxxHEKGA4aY6vXJH3B8G3BmzBSUbM2B5I81-zszkRXHieOsFs4JFp-SeM3FHw-SRu1f8VN8h3ekihQKHYKKcig5TuHWM=w1400-k
+  width: 1200
+  height: 630
+
+#art metadata
 layout: art
-title: "Shedding"
+art_title: "Shedding"
 art_url: https://ipfs.pixura.io/ipfs/QmWdua7KLbQ3EeP8a4omo9Uk5E5jbLyZrE2WjwvEyokRD9/Shedding.mp4
 type: video # image | video | gif
 artist: Jason Ebeyer

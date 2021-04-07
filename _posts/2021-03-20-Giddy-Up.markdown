@@ -1,9 +1,20 @@
 ---
+# SEO METADATA
+description: "Giddy Up - Tony Babel, 2021"
+author:
+  name: Tony Babel
+  url: https://opensea.io/accounts/tonybabel
+image:
+  path: https://lh3.googleusercontent.com/FhjBk74jk4CdGJFYNVLAVPXSXGQNTdMR4-rq0kPSYpqdlNcrb9mOfsTUm_M79bf2KW8g5l-e-tz0HO00v8eVrZIEZsitJMH-iBnm=w1400-k
+  width: 1200
+  height: 630
+
+#art metadata
 layout: art
-title: "Giddy Up"
+art_title: "Giddy Up"
 art_url: https://storage.opensea.io/files/7624595c58191db4f3480ef1589551e6.mp4
 type: video # image | video | gif
-artist: tonybabel
+artist: Tony Babel
 artist_birth: 
 caption: 
 artist_url: https://opensea.io/accounts/tonybabel
